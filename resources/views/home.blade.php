@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome To Laravel
+                   Home Page
                 </div>
 
                 <div class="links">
@@ -92,7 +92,6 @@
                     <a href="{{ route('test1') }}">Test</a>
                 </div>
             </div>
-        </div>
         </div>
     </body>
 </html>

@@ -81,15 +81,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    About
+                    About Page
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Home</a>
+                        <a href="{{ url('/home') }}">Home</a>
                     <a href="https://laracasts.com">About</a>
-                    <a href="https://laravel-news.com">Contact</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://laravel-news.com">Email</a>
                 </div>
             </div>
         </div>

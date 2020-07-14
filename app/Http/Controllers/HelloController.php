@@ -4,5 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class testController extends Controller
-{   public function hello(){ return view('about');}}
+class helloController extends Controller
+{
+    public function contact()
+    {
+        return view('contact');
+    }
+}

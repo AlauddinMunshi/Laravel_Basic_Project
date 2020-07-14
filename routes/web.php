@@ -19,9 +19,13 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('welcome');
 });
-Route::get('/about','HelloController@hello');
 
-Route::get('/test','TestController@test1');
+Route::get('/home','HomeController@home');
+Route::get('/about','AboutController@about');
+Route::get('/contact','HelloController@contact');
+Route::get('/blog','BlogController@blog'); 
+Route::get('/testHelloWorld','TestController@test1')->name('test1');
+
 
 
 //Route::get('/about','HelloController@test');

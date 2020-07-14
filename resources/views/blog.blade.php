@@ -81,18 +81,16 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome To Laravel
+                    Test Page
                 </div>
 
                 <div class="links">
-                    <a href="{{ url('/home') }}">Home</a>
-                    <a href="{{ url('/about') }}">About</a>
-                    <a href="{{ url('/contact') }}">Contact</a>
-                    <a href="{{ url('/blog') }}">Blog</a>
-                    <a href="{{ route('test1') }}">Test</a>
+                       <a href="{{ url('/home') }}">Home</a>
+                    <a href="https://laracasts.com">Blog</a>
+                    <a href="https://github.com/laravel/laravel">Your Thinking</a>
                 </div>
             </div>
         </div>
-        </div>
     </body>
 </html>
+  
